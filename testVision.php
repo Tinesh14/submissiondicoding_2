@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
         var subscriptionKey = "8446c72255094dbe8f7d2472b4dcb90d";
  
         var uriBase =
-            "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
+            "https://dicodingvision2.cognitiveservices.azure.com/";
  
         var params = {
             "visualFeatures": "Categories,Description,Color",
